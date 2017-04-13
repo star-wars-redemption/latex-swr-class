@@ -33,7 +33,7 @@
 
 \setmainfont[Path=_font/noto-sans/,
     Extension=.ttf,
-    UprightFont= *-Regular,
+    UprightFont= NotoSans,
     SmallCapsFont=*,
     BoldFont=*-Bold,
     ItalicFont=*-Italic,
