@@ -1,0 +1,31 @@
+$font-stack:    'Noto Sans', sans-serif;
+$title-color:   #58180D;
+$toc-width:     300px;
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+html {
+    font-family: $font-stack;
+}
+
+#TOC {
+    position: fixed;
+    width: $toc-width;
+    left: 0;
+    top: 0;
+    border-right: 1px solid #ddd;
+    z-index: 1000;
+    height: 100%;
+    overflow: auto;
+}
+
+body {
+    margin-left: $toc-width + 50;
+}
+
+p::first-letter {
+  font-size:3.5em;
+  padding-right:0.2em;
+  float:left;
+  color:red;
+}
