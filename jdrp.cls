@@ -25,6 +25,7 @@
 \setlength{\DefaultNindent}{0em}
 
 \RequirePackage{wrapfig}
+\RequirePackage{caption}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Fonts
