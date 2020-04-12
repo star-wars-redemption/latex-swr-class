@@ -111,6 +111,22 @@
     pdfborderstyle={/S/U/W 1}  } 	% Couleur des url
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover
+
+\newcommand{\swrCover}[1]{
+    \begin{center}
+        \hspace{0pt}\vfill
+        \noindent\Huge\jedifont{Star Wars Redemption}\\ 
+        \noindent\fontsize{50}{70}\jedifont{\$}
+        \noindent\fontsize{50}{70}\jedifont{\#}\\
+        \noindent\fontsize{50}{60}\jedifont{#1}
+        \vfill
+    \end{center}
+    \noindent\makebox[\textwidth]{
+        \includegraphics[width=1.01\paperwidth]{swr-class/_img/cover-bg.jpg}}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Footer - Must be before sectioning ...
 \RequirePackage{fancyhdr} 			  % Adaptation of the footers
 
