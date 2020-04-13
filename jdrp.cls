@@ -26,6 +26,7 @@
 
 \RequirePackage{wrapfig}
 \RequirePackage{caption}
+\captionsetup[figure]{labelformat=empty}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Fonts
